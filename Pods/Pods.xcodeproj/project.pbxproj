@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EBA95D9E2D07489154D9CC4BC2C065 /* TouchVisualizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A12380AFF8414CC12DC7E75D0F9AA /* TouchVisualizer-dummy.m */; };
+		070DCAD38143C03B155044CB360CBE46 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974783D0BF6DB8F907D32014B7A8EAC5 /* Configuration.swift */; };
+		0D2A2760983367581B73483B122B4683 /* ExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F155F683782012B65BA4DA2A348EE602 /* ExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F53390E3228932FFA18B10FEE45643C /* UIWindow+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5EEF87A8694DE2E1F1C3E0F3453C2 /* UIWindow+Swizzle.swift */; };
+		11B6B22ABB459E9DF4B83920F6A9DB36 /* KeyValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273B7DDEC4854DA1B554AA043A4B472 /* KeyValueObserver.swift */; };
+		1A3BAA6A47471BE111D135B0CE53F3F7 /* ReverseExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EA9A67677737A54428E5C684095A9B /* ReverseExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA71334F30249F4EC4DD8805A4A88A5 /* UITableViewDelegateTransporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D94F32338F564199494DD70FB93A98B /* UITableViewDelegateTransporter.swift */; };
+		2ED0DB1261C851D8465BFFE5434A0BA7 /* DelegateTransporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3C06593B3073730D734279C32125F /* DelegateTransporter.m */; };
+		38E7CA9630EE806F75CEB2FDF6A4D728 /* TouchVisualizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2945AD72103F5A23784D3ECF32AD8458 /* TouchVisualizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71842CFDF49D5050BB4188F28B714A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		75E64F207FD5FEC844DB2F6650A37AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7D9F33EB4E604AFE1BABE67F4724AE67 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63747BD2AC963BBE2C3CBC7D3990F9 /* TouchView.swift */; };
+		8C98599D38D8634DE2BD5449821A451B /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED9A21A7CDB4BB51E32DD7C64306C2 /* ExceptionHandler.m */; };
+		95D7A9C1E037B71D676CF47E34EDCD05 /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05491D04127691BC383888DE612D7E0D /* Visualizer.swift */; };
+		9A4C539E47072C997F80AFEEC88F01B9 /* DelegateTransporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 303597F620F624942FAD0E9033AF47F7 /* DelegateTransporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05040D3B4FD74DF1D261095B3BC4E3E /* ReverseExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93177AD4DB4E3F159F5C2F8894E371A8 /* ReverseExtension-dummy.m */; };
+		C7BCFF560566A8A079218184CA7FB7FC /* Pods-ReverseExtensionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC5B3050244D72729ECC2FA359A3E8E /* Pods-ReverseExtensionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D56AB3BE7B7D434F76EED4A8767C5E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F18183268631E22C58F4FA20F5BCD792 /* ReverseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A49285229CFCD898E4148B856FA1C8D /* ReverseExtension.swift */; };
+		F411932B9F5E4189957AF89A519E353D /* Pods-ReverseExtensionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3B1F8957474F621BCADA9FFA14932F /* Pods-ReverseExtensionDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21C304B58BCC13F99DBE49A8C2A45D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC02293A1F9E69B5895A922920675B64;
+			remoteInfo = ReverseExtension;
+		};
+		91987FDE0B2DD83C6801137F1A5E84E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A295819D551A7DBECD64D6317B7FD514;
+			remoteInfo = TouchVisualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E5EEF87A8694DE2E1F1C3E0F3453C2 /* UIWindow+Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+Swizzle.swift"; path = "TouchVisualizer/UIWindow+Swizzle.swift"; sourceTree = "<group>"; };
+		05491D04127691BC383888DE612D7E0D /* Visualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visualizer.swift; path = TouchVisualizer/Visualizer.swift; sourceTree = "<group>"; };
+		088DC53D1C8F01D06AEDB19366E28377 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09ED9A21A7CDB4BB51E32DD7C64306C2 /* ExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExceptionHandler.m; path = ReverseExtension/ExceptionHandler.m; sourceTree = "<group>"; };
+		0E5A12380AFF8414CC12DC7E75D0F9AA /* TouchVisualizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchVisualizer-dummy.m"; sourceTree = "<group>"; };
+		1D462114A2FA6B8DE0F7E26FFF48D9A7 /* Pods-ReverseExtensionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReverseExtensionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1E39B265479C131206CA3F0532861AD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2945AD72103F5A23784D3ECF32AD8458 /* TouchVisualizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-umbrella.h"; sourceTree = "<group>"; };
+		2D94F32338F564199494DD70FB93A98B /* UITableViewDelegateTransporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewDelegateTransporter.swift; path = ReverseExtension/UITableViewDelegateTransporter.swift; sourceTree = "<group>"; };
+		303597F620F624942FAD0E9033AF47F7 /* DelegateTransporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DelegateTransporter.h; path = ReverseExtension/DelegateTransporter.h; sourceTree = "<group>"; };
+		38C02E4E76E402B71BA85AD2A2C08567 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A63747BD2AC963BBE2C3CBC7D3990F9 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchView.swift; path = TouchVisualizer/TouchView.swift; sourceTree = "<group>"; };
+		4C28DDC3AAE394D168DC39E25C92D8A2 /* ReverseExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReverseExtension.framework; path = ReverseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE84A9BDB20DCCD5EA24D83F62E586 /* TouchVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TouchVisualizer.framework; path = TouchVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93177AD4DB4E3F159F5C2F8894E371A8 /* ReverseExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReverseExtension-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974783D0BF6DB8F907D32014B7A8EAC5 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = TouchVisualizer/Configuration.swift; sourceTree = "<group>"; };
+		998517E2278B84AC0571760B5D304995 /* Pods-ReverseExtensionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReverseExtensionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9A49285229CFCD898E4148B856FA1C8D /* ReverseExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReverseExtension.swift; path = ReverseExtension/ReverseExtension.swift; sourceTree = "<group>"; };
+		A01222B2256C8BE6B664FD0906249906 /* TouchVisualizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-prefix.pch"; sourceTree = "<group>"; };
+		A5BFE623DCA50D3A201EE476118E68DE /* Pods-ReverseExtensionDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReverseExtensionDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B033E732C0F4590695AA0A3E6164706C /* TouchVisualizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TouchVisualizer.modulemap; sourceTree = "<group>"; };
+		B7E3C06593B3073730D734279C32125F /* DelegateTransporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DelegateTransporter.m; path = ReverseExtension/DelegateTransporter.m; sourceTree = "<group>"; };
+		B943E900719FA9D015EBBF105133F1C1 /* ReverseExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReverseExtension.xcconfig; sourceTree = "<group>"; };
+		BC9D87DFA9F16060E73067A2FAE6739D /* ReverseExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReverseExtension.modulemap; sourceTree = "<group>"; };
+		C4B5C86B9688E859FAFC77722F6BB05D /* Pods-ReverseExtensionDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReverseExtensionDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC66792B3B9016775313EEB8DB92EB08 /* Pods-ReverseExtensionDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReverseExtensionDemo-resources.sh"; sourceTree = "<group>"; };
+		D2EA9A67677737A54428E5C684095A9B /* ReverseExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReverseExtension-umbrella.h"; sourceTree = "<group>"; };
+		D4C1808EC0AC3932A5B326E3991EF78C /* Pods-ReverseExtensionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ReverseExtensionDemo.modulemap"; sourceTree = "<group>"; };
+		D8B2F8E7E2442BA9E4C4C76E597E2667 /* ReverseExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReverseExtension-prefix.pch"; sourceTree = "<group>"; };
+		DD3B1F8957474F621BCADA9FFA14932F /* Pods-ReverseExtensionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReverseExtensionDemo-dummy.m"; sourceTree = "<group>"; };
+		DDAE14BE9EFAB0FB7C6CB29F86AD9894 /* TouchVisualizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchVisualizer.xcconfig; sourceTree = "<group>"; };
+		E273B7DDEC4854DA1B554AA043A4B472 /* KeyValueObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyValueObserver.swift; path = ReverseExtension/KeyValueObserver.swift; sourceTree = "<group>"; };
+		ECA58099DFBDEF445E1F56CC5FBA71D0 /* Pods_ReverseExtensionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReverseExtensionDemo.framework; path = "Pods-ReverseExtensionDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F155F683782012B65BA4DA2A348EE602 /* ExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionHandler.h; path = ReverseExtension/ExceptionHandler.h; sourceTree = "<group>"; };
+		F57840C1C56C1FD42C257E63C9A2838E /* Pods-ReverseExtensionDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReverseExtensionDemo-frameworks.sh"; sourceTree = "<group>"; };
+		FEC5B3050244D72729ECC2FA359A3E8E /* Pods-ReverseExtensionDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReverseExtensionDemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B9A8EAB8175010CDB2FB9B04039D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71842CFDF49D5050BB4188F28B714A24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B33B340CE7B0DC15072647B6C4C583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56AB3BE7B7D434F76EED4A8767C5E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6ABFE4ED408522BB41EA4A8B729581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E64F207FD5FEC844DB2F6650A37AFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41BA19E7911D4873864B21C4427947A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA58099DFBDEF445E1F56CC5FBA71D0 /* Pods_ReverseExtensionDemo.framework */,
+				4C28DDC3AAE394D168DC39E25C92D8A2 /* ReverseExtension.framework */,
+				52EE84A9BDB20DCCD5EA24D83F62E586 /* TouchVisualizer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C37E311AF0288968124CF590F4D2DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEAC3C7A439A70D97ACBB73322A62A58 /* Pods-ReverseExtensionDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		620297CADAF2CEE3C234988AB4065EAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				088DC53D1C8F01D06AEDB19366E28377 /* Info.plist */,
+				B033E732C0F4590695AA0A3E6164706C /* TouchVisualizer.modulemap */,
+				DDAE14BE9EFAB0FB7C6CB29F86AD9894 /* TouchVisualizer.xcconfig */,
+				0E5A12380AFF8414CC12DC7E75D0F9AA /* TouchVisualizer-dummy.m */,
+				A01222B2256C8BE6B664FD0906249906 /* TouchVisualizer-prefix.pch */,
+				2945AD72103F5A23784D3ECF32AD8458 /* TouchVisualizer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TouchVisualizer";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				987ADDABDE39A258F32462515C929140 /* Pods */,
+				41BA19E7911D4873864B21C4427947A8 /* Products */,
+				58C37E311AF0288968124CF590F4D2DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		987ADDABDE39A258F32462515C929140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F955A3A3B420EDFC95505A5F5CE9BA0 /* ReverseExtension */,
+				9F79E10CD4AC49B44264640B3AE1DB95 /* TouchVisualizer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F79E10CD4AC49B44264640B3AE1DB95 /* TouchVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				974783D0BF6DB8F907D32014B7A8EAC5 /* Configuration.swift */,
+				3A63747BD2AC963BBE2C3CBC7D3990F9 /* TouchView.swift */,
+				03E5EEF87A8694DE2E1F1C3E0F3453C2 /* UIWindow+Swizzle.swift */,
+				05491D04127691BC383888DE612D7E0D /* Visualizer.swift */,
+				620297CADAF2CEE3C234988AB4065EAC /* Support Files */,
+			);
+			name = TouchVisualizer;
+			path = TouchVisualizer;
+			sourceTree = "<group>";
+		};
+		9F955A3A3B420EDFC95505A5F5CE9BA0 /* ReverseExtension */ = {
+			isa = PBXGroup;
+			children = (
+				303597F620F624942FAD0E9033AF47F7 /* DelegateTransporter.h */,
+				B7E3C06593B3073730D734279C32125F /* DelegateTransporter.m */,
+				F155F683782012B65BA4DA2A348EE602 /* ExceptionHandler.h */,
+				09ED9A21A7CDB4BB51E32DD7C64306C2 /* ExceptionHandler.m */,
+				E273B7DDEC4854DA1B554AA043A4B472 /* KeyValueObserver.swift */,
+				9A49285229CFCD898E4148B856FA1C8D /* ReverseExtension.swift */,
+				2D94F32338F564199494DD70FB93A98B /* UITableViewDelegateTransporter.swift */,
+				D79524A7275E4B877F1484353CCEE298 /* Support Files */,
+			);
+			name = ReverseExtension;
+			path = ReverseExtension;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79524A7275E4B877F1484353CCEE298 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E39B265479C131206CA3F0532861AD1 /* Info.plist */,
+				BC9D87DFA9F16060E73067A2FAE6739D /* ReverseExtension.modulemap */,
+				B943E900719FA9D015EBBF105133F1C1 /* ReverseExtension.xcconfig */,
+				93177AD4DB4E3F159F5C2F8894E371A8 /* ReverseExtension-dummy.m */,
+				D8B2F8E7E2442BA9E4C4C76E597E2667 /* ReverseExtension-prefix.pch */,
+				D2EA9A67677737A54428E5C684095A9B /* ReverseExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReverseExtension";
+			sourceTree = "<group>";
+		};
+		EEAC3C7A439A70D97ACBB73322A62A58 /* Pods-ReverseExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				38C02E4E76E402B71BA85AD2A2C08567 /* Info.plist */,
+				D4C1808EC0AC3932A5B326E3991EF78C /* Pods-ReverseExtensionDemo.modulemap */,
+				A5BFE623DCA50D3A201EE476118E68DE /* Pods-ReverseExtensionDemo-acknowledgements.markdown */,
+				C4B5C86B9688E859FAFC77722F6BB05D /* Pods-ReverseExtensionDemo-acknowledgements.plist */,
+				DD3B1F8957474F621BCADA9FFA14932F /* Pods-ReverseExtensionDemo-dummy.m */,
+				F57840C1C56C1FD42C257E63C9A2838E /* Pods-ReverseExtensionDemo-frameworks.sh */,
+				CC66792B3B9016775313EEB8DB92EB08 /* Pods-ReverseExtensionDemo-resources.sh */,
+				FEC5B3050244D72729ECC2FA359A3E8E /* Pods-ReverseExtensionDemo-umbrella.h */,
+				1D462114A2FA6B8DE0F7E26FFF48D9A7 /* Pods-ReverseExtensionDemo.debug.xcconfig */,
+				998517E2278B84AC0571760B5D304995 /* Pods-ReverseExtensionDemo.release.xcconfig */,
+			);
+			name = "Pods-ReverseExtensionDemo";
+			path = "Target Support Files/Pods-ReverseExtensionDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E77DE75E5DA3E65E9C9F07934610BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E7CA9630EE806F75CEB2FDF6A4D728 /* TouchVisualizer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3168F450291CA52542997B2D5A7567 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BCFF560566A8A079218184CA7FB7FC /* Pods-ReverseExtensionDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB823E4E0BE9AA2EA38D81CF12E42179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4C539E47072C997F80AFEEC88F01B9 /* DelegateTransporter.h in Headers */,
+				0D2A2760983367581B73483B122B4683 /* ExceptionHandler.h in Headers */,
+				1A3BAA6A47471BE111D135B0CE53F3F7 /* ReverseExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		575F5943C2E7269DEE352BF4DA906F65 /* Pods-ReverseExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53F3389E2B13362BB11199D2E6CB62A /* Build configuration list for PBXNativeTarget "Pods-ReverseExtensionDemo" */;
+			buildPhases = (
+				C8A318BD129084E832DE1D6A5761C0D2 /* Sources */,
+				E8B33B340CE7B0DC15072647B6C4C583 /* Frameworks */,
+				CB3168F450291CA52542997B2D5A7567 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				192A48E6B520920D67B24CEC98E2626C /* PBXTargetDependency */,
+				EE583EA7FA118315CBA056C1E967A5E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReverseExtensionDemo";
+			productName = "Pods-ReverseExtensionDemo";
+			productReference = ECA58099DFBDEF445E1F56CC5FBA71D0 /* Pods_ReverseExtensionDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A295819D551A7DBECD64D6317B7FD514 /* TouchVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD0D8C83161B9FBCD5AF01C8C8A14A0 /* Build configuration list for PBXNativeTarget "TouchVisualizer" */;
+			buildPhases = (
+				E73755F7EEF0B0AF2F6DE769CE0D455E /* Sources */,
+				F6ABFE4ED408522BB41EA4A8B729581A /* Frameworks */,
+				3E77DE75E5DA3E65E9C9F07934610BAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchVisualizer;
+			productName = TouchVisualizer;
+			productReference = 52EE84A9BDB20DCCD5EA24D83F62E586 /* TouchVisualizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC02293A1F9E69B5895A922920675B64 /* ReverseExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2813FB39E425C70760441116609B07DA /* Build configuration list for PBXNativeTarget "ReverseExtension" */;
+			buildPhases = (
+				34D089D3D09411A2EFE28E1FFCD3CA26 /* Sources */,
+				94B9A8EAB8175010CDB2FB9B04039D63 /* Frameworks */,
+				FB823E4E0BE9AA2EA38D81CF12E42179 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseExtension;
+			productName = ReverseExtension;
+			productReference = 4C28DDC3AAE394D168DC39E25C92D8A2 /* ReverseExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 41BA19E7911D4873864B21C4427947A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575F5943C2E7269DEE352BF4DA906F65 /* Pods-ReverseExtensionDemo */,
+				AC02293A1F9E69B5895A922920675B64 /* ReverseExtension */,
+				A295819D551A7DBECD64D6317B7FD514 /* TouchVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D089D3D09411A2EFE28E1FFCD3CA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED0DB1261C851D8465BFFE5434A0BA7 /* DelegateTransporter.m in Sources */,
+				8C98599D38D8634DE2BD5449821A451B /* ExceptionHandler.m in Sources */,
+				11B6B22ABB459E9DF4B83920F6A9DB36 /* KeyValueObserver.swift in Sources */,
+				B05040D3B4FD74DF1D261095B3BC4E3E /* ReverseExtension-dummy.m in Sources */,
+				F18183268631E22C58F4FA20F5BCD792 /* ReverseExtension.swift in Sources */,
+				1BA71334F30249F4EC4DD8805A4A88A5 /* UITableViewDelegateTransporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A318BD129084E832DE1D6A5761C0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411932B9F5E4189957AF89A519E353D /* Pods-ReverseExtensionDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73755F7EEF0B0AF2F6DE769CE0D455E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070DCAD38143C03B155044CB360CBE46 /* Configuration.swift in Sources */,
+				7D9F33EB4E604AFE1BABE67F4724AE67 /* TouchView.swift in Sources */,
+				03EBA95D9E2D07489154D9CC4BC2C065 /* TouchVisualizer-dummy.m in Sources */,
+				0F53390E3228932FFA18B10FEE45643C /* UIWindow+Swizzle.swift in Sources */,
+				95D7A9C1E037B71D676CF47E34EDCD05 /* Visualizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		192A48E6B520920D67B24CEC98E2626C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReverseExtension;
+			target = AC02293A1F9E69B5895A922920675B64 /* ReverseExtension */;
+			targetProxy = 21C304B58BCC13F99DBE49A8C2A45D15 /* PBXContainerItemProxy */;
+		};
+		EE583EA7FA118315CBA056C1E967A5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchVisualizer;
+			target = A295819D551A7DBECD64D6317B7FD514 /* TouchVisualizer */;
+			targetProxy = 91987FDE0B2DD83C6801137F1A5E84E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111F846239B7345FAC4A34981386A465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAE14BE9EFAB0FB7C6CB29F86AD9894 /* TouchVisualizer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchVisualizer/TouchVisualizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TouchVisualizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		940CDF5DEA9A8524D96357E7F30C4DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D462114A2FA6B8DE0F7E26FFF48D9A7 /* Pods-ReverseExtensionDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReverseExtensionDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReverseExtensionDemo/Pods-ReverseExtensionDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReverseExtensionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABB6F24D9BFB9544A8AE033BF29FB44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998517E2278B84AC0571760B5D304995 /* Pods-ReverseExtensionDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReverseExtensionDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReverseExtensionDemo/Pods-ReverseExtensionDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReverseExtensionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7B4385A253311AD82F2229BC1A0375C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAE14BE9EFAB0FB7C6CB29F86AD9894 /* TouchVisualizer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchVisualizer/TouchVisualizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TouchVisualizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BEFC9226C5B3472C25BA99F3FB00E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B943E900719FA9D015EBBF105133F1C1 /* ReverseExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReverseExtension/ReverseExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReverseExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReverseExtension/ReverseExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReverseExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFB14D57158CFC4519E0798B4CF75F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B943E900719FA9D015EBBF105133F1C1 /* ReverseExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReverseExtension/ReverseExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReverseExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReverseExtension/ReverseExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReverseExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2813FB39E425C70760441116609B07DA /* Build configuration list for PBXNativeTarget "ReverseExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEFC9226C5B3472C25BA99F3FB00E3 /* Debug */,
+				FFB14D57158CFC4519E0798B4CF75F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53F3389E2B13362BB11199D2E6CB62A /* Build configuration list for PBXNativeTarget "Pods-ReverseExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940CDF5DEA9A8524D96357E7F30C4DAF /* Debug */,
+				ABB6F24D9BFB9544A8AE033BF29FB44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD0D8C83161B9FBCD5AF01C8C8A14A0 /* Build configuration list for PBXNativeTarget "TouchVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F846239B7345FAC4A34981386A465 /* Debug */,
+				C7B4385A253311AD82F2229BC1A0375C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ReverseExtensionDemo {
+  umbrella header "Pods-ReverseExtensionDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
